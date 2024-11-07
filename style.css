@@ -248,7 +248,7 @@ footer{
 	}
 
 	.content{
-		display: block;
+		width: 100%;
 	}
 
 	.noy{
