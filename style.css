@@ -248,7 +248,7 @@ footer{
 	}
 
 	.content{
-		width: 100%;
+		max-width: 100%;
 	}
 
 	.noy{
