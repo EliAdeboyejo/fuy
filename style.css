@@ -226,13 +226,16 @@ footer{
 }
 
 
-@media only screen and (min-width: 600px){
-  .wrapLamoCase{
-	max-width: 48%;
-	padding: 4px;
-	margin: 5px;
+@media only screen and (min-width: 500px){
+	div.wrapLampCase{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
   }
-	font-size: 20px;
+
+  #gig{
+	width: 400px;
+	height: 250px;
+  }
 
 	.reviews{
 		flex-direction: column;
@@ -249,5 +252,9 @@ footer{
 
 	.noy{
 		display: block;
+	}
+	
+	.reviews{
+		margin-top: 950px;
 	}
 }
