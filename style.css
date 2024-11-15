@@ -226,7 +226,7 @@ footer{
 }
 
 
-@media only screen and (min-width: 500px){
+@media only screen and (max-width: 500px){
 	div.wrapLampCase{
 		display: grid;
 		grid-template-columns: 1fr 1fr;
