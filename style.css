@@ -249,12 +249,32 @@ footer{
 	.itgen{
 		display: none;
 	}
-
-	.noy{
-		display: block;
-	}
 	
 	.reviews{
 		margin-top: 950px;
+	}
+
+	footer{
+       display: block;
+	   text-align: center;
+	   
+	}
+
+	.content{
+		width: 153%;
+	}
+
+	.header{
+		display: block;
+		font-size: 20px;
+	}
+
+	.photo::before{
+		width: 600px;
+		background: url(./img/header.jpg);
+	}
+
+	.sale{
+		
 	}
 }
